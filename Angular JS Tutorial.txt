@@ -45,3 +45,9 @@ defining controller in html
 value of component(customModule) changes to -(custom-module)
 
 
+007
+We can have template outside module: external templates
+like: templateUrl: 'location/of/template.html'
+
+
+
