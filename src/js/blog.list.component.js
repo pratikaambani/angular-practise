@@ -15,8 +15,9 @@ angular.module('customModule')
 //006
 angular.module('myModule')
 	.component('customModule', {
-		template: "<div class=''><h1>{{title}}</h1><button ng-click='onBtnClick()'>Click me!!</button></div>",
-//		templateUrl:'scripts/templates/blog-list.html',
+//		template: "<div class=''><h1>{{title}}</h1><button ng-click='onBtnClick()'>Click me!!</button></div>",
+//007 External Template
+		templateUrl:'js/templates/blog-list.html',
 		controller: function($scope) {
 			$scope.title = 'Hi, from scope'
 			$scope.onBtnClick = function() {

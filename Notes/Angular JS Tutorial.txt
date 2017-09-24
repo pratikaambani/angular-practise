@@ -48,7 +48,7 @@ value of component(customModule) changes to -(custom-module)
 007
 We can have template outside module: external templates
 like: templateUrl: 'location/of/template.html'
-
+path would be relative to html file and not the js mentioning path of template
 
 
 
