@@ -1,0 +1,11 @@
+Creating grunt project env:
+https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt
+https://code.tutsplus.com/articles/setting-up-grunt-for-your-next-project--wp-35123
+
+
+1. Create package.json in root
+2. npm install
+3. Create Gruntfile.js in root: default place where our settings will go
+4. Add all modules to be executed
+5. grunt jshint, cssmin, etc
+6. npm install grunt-serve --save-dev

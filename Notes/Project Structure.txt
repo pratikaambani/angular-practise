@@ -1,0 +1,12 @@
+- dist              // will hold all our of final files (minified files)
+----- css
+----- js
+- src               // will hold all of our original files
+----- css
+---------- style.css
+---------- pretty.less
+----- js
+---------- magic.js
+Gruntfile.js        // our Grunt configuration
+package.json        // our npm pacakge configuration (how we pull in packages)
+
