@@ -20,6 +20,9 @@ angular.module('customModule')
 				template: "<h1>Hiiiiiiiiiiiii</h1>"
 			}).when("/", {
 				template: "<custom-module></custom-module>"
+			//008-02
+			}).when("/about", {
+				template: "about.html"
 			}).when("/blog/2", {
 				template: "Not Found"
 			}).otherwise({

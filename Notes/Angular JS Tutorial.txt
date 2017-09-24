@@ -71,3 +71,7 @@ angular-resource
 
 008-01 To remove # from url
 add location provider in html
+   <base href="/src/008.html">
+
+
+008-02 - adding new template
