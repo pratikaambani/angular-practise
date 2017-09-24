@@ -19,6 +19,16 @@ angular.module('myModule')
 //007 External Template
 		templateUrl:'js/templates/blog-list.html',
 		controller: function($scope) {
+//006-2		
+		console.log("Page Loaded")
+		var blogItems = [
+		{title:"Maths", id:1, description:"This is maths book"},
+		{title:"Eng", id:2, description:"This is english book"},
+		{title:"Gujju", id:3, description:"This is Gujarati book"}
+		]
+//006-2		
+		$scope.items = blogItems;
+
 			$scope.title = 'Hi, from scope'
 			$scope.onBtnClick = function() {
 				alert("Clicked re");
