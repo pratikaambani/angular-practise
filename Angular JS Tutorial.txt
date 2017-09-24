@@ -35,6 +35,11 @@ create app.module.js
 create blog-list-component
 005 <div>
 
+adding consoles to check execution.
+defining controller in html
 
 
+
+006 template 
 create blog-list-module
+

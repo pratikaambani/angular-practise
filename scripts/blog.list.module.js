@@ -1,3 +1,3 @@
 'user strict';
 
-angular.module('customModule', ['customModule']);
+angular.module('myModule', ['customModule']);
