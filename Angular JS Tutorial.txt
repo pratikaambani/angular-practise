@@ -1,0 +1,40 @@
+problem with normal code is we repetitively upudate Dom, which is not preferred way
+
+purpose: when html changes, javascript should get changed and viceversa
+
+normal: MVC
+Angular: Model(data:js), View(ppl c:html), Whatever(call it controller, view model, everything fine)
+
+
+HTML:Custom Attributes
+
+
+Ability to write directives is ley point of Angular
+
+Angular 1.5
+
+
+https://github.com/codingforentrepreneurs?tab=repositories
+
+https://www.youtube.com/user/CodingEntrepreneurs
+
+https://github.com/codingforentrepreneurs?tab=repositories
+
+
+bower and npm: package managers
+
+
+001 html
+002 sample hello world
+003 if else
+004 some css classes
+005 Creating controllers
+create app.config.js
+create app.module.js
+
+create blog-list-component
+005 <div>
+
+
+
+create blog-list-module
