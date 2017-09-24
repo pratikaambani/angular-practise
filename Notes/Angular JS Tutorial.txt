@@ -51,8 +51,21 @@ like: templateUrl: 'location/of/template.html'
 path would be relative to html file and not the js mentioning path of template
 
 006-2 reading angular data
-ng repeat
+ng-repeat, ng-if, length
+
+
+Note: Always define controller inside scope
+
+
+Angular Webserver with Rack
+Setting up web server for Angular JS
+https://www.youtube.com/watch?v=P4N3MDOSITs
 
 
 
-Always define controller inside scope
+008 ng-route: angular-route
+route provider: when.when.otherwise
+
+angular-resource
+
+
