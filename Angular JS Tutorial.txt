@@ -31,6 +31,7 @@ bower and npm: package managers
 005 Creating controllers
 create app.config.js
 create app.module.js
+create blog-list-module
 
 create blog-list-component
 005 <div>
@@ -40,6 +41,7 @@ defining controller in html
 
 
 
-006 template 
-create blog-list-module
+006 template; making component allows us to add template
+value of component(customModule) changes to -(custom-module)
+
 
