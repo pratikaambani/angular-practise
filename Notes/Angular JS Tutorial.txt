@@ -69,3 +69,5 @@ route provider: when.when.otherwise
 angular-resource
 
 
+008-01 To remove # from url
+add location provider in html
