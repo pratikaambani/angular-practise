@@ -4,3 +4,17 @@
 	<!-- 006-2 -->
 	<p>{{items}}</p>
 </div>
+<ol>
+	<li ng-repeat = 'item in items'>
+		Title: {{item.title}} <br />
+		ID: {{item.id}} <br />
+		Desc: {{item.description}} <br />
+	</li>
+</ol>
+<br />
+
+Number of items: {{items.length}} <br />
+
+<span ng-if='items.length==4'>4 Items Present</span>
+<span ng-if='items.length>4'>Greater than 4 Items Present</span>
+<span ng-if='items.length<4'>Less than 4 Items Present</span>
