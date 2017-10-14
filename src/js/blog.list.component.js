@@ -18,9 +18,10 @@ angular.module('myModule')
 //		template: "<div class=''><h1>{{title}}</h1><button ng-click='onBtnClick()'>Click me!!</button></div>",
 //007 External Template
 		templateUrl:'js/templates/blog-list.html',
-		controller: function($scope) {
+		controller: function($routeParams, $scope) {
 //006-2		
 		console.log("Page Loaded")
+		console.log("Route Params: " +$routeParams)
 		var blogItems = [
 		{title:"Maths", id:1, description:"This is maths book"},
 		{title:"Eng", id:2, description:"This is english book"},
