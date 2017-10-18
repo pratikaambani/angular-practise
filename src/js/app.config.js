@@ -16,14 +16,14 @@ angular.module('customModule')
 
 
 		$routeProvider
-			.when("/blog/1", {
+			.when("src/1", {
 				template: "<h1>Hiiiiiiiiiiiii</h1>"
-			}).when("/", {
+			}).when("/src/1", {
 				template: "<custom-module></custom-module>"
 			//008-02
-			}).when("/about", {
+			}).when("/1", {
 				template: "about.html"
-			}).when("/blog/2", {
+			}).when("1", {
 				template: "Not Found"
 			}).otherwise({
 				template: "<custom-module></custom-module>"

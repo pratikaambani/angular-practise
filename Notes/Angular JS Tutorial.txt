@@ -1,3 +1,5 @@
+https://github.com/codingforentrepreneurs/Try-Angular-1.5
+
 problem with normal code is we repetitively upudate Dom, which is not preferred way
 
 purpose: when html changes, javascript should get changed and viceversa
@@ -75,3 +77,63 @@ add location provider in html
 
 
 008-02 - adding new template
+
+008-03 routeParams $service
+
+routeProvider: Dynamically set values
+----
+
+Detail view with Parameters:
+
+Simplifying
+	var blogItems = [
+		{title:"Maths", id:1, description:"This is maths book"},
+		{title:"Eng", id:2, description:"This is english book"},
+		{title:"Gujju", id:3, description:"This is Gujarati book"}
+	]
+
+angular.forEach(blogItems, function(blog){
+	console.log(blog);
+})
+
+
+$location service:
+we can set path inside location. ie error message
+
+
+Http Requests:
+taking data from requests instead of static data
+$http service
+$http.get("a.json").then(succesCallback, errorCallback);
+
+
+ngResource:
+for http requests
+
+ng click and customClick directives
+
+forms and ngsubmit
+
+
+
+
+---------------------------------Notes------------------------------------
+
+I used routeProvide, use stateProvider(vf), allows us to give names to routes which we can use at some other place
+
+Interceptors
+
+
+https://www.myntra.com/myntra-fashion-store?f=Fit_article_attr%3Aregular%20fit%3A%3Acategories%3AJeans%3A%3Adiscount%3A30.0%3A%3Agender%3Amen%3A%3Asize_facet%3A32&sort=low
+
+
+
+app.js 			
+automation.js
+directive
+controller
+module: Contains all constants, used in all others(controllers, directives, services)
+service
+html
+index.html
+
